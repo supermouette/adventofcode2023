@@ -8,7 +8,7 @@ print("part1", sum([int(l[0] + l[-1]) for l in lines_1]))
 
 english_numbers = {
     "twone": "21",
-    "oneigh": "18",
+    "oneight": "18",
     "threeight": "38",
     "fiveight": "58",
     "sevenine": "79",
