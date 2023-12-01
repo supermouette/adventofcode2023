@@ -9,9 +9,11 @@ print("part1", sum([int(l[0] + l[-1]) for l in lines_1]))
 english_numbers = {
     "twone": "21",
     "oneigh": "18",
-    "threeigh": "38",
-    "fiveigh": "58",
+    "threeight": "38",
+    "fiveight": "58",
     "sevenine": "79",
+    "eightwo": "82",
+    "eighthree": "83",
     "one": "1",
     "two": "2",
     "three": "3",
@@ -19,7 +21,7 @@ english_numbers = {
     "five": "5",
     "six": "6",
     "seven": "7",
-    "eigh": "8",
+    "eight": "8",
     "nine": "9",
 }
 
