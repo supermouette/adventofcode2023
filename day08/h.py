@@ -1,5 +1,4 @@
-from functools import reduce
-from math import gcd, lcm
+from math import lcm
 
 with open("input.txt") as f:
     lines = [l.strip("\n") for l in f.readlines()]
