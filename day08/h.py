@@ -1,5 +1,5 @@
 from functools import reduce
-from math import gcd
+from math import gcd, lcm
 
 with open("input.txt") as f:
     lines = [l.strip("\n") for l in f.readlines()]
@@ -40,7 +40,4 @@ for start_pos in pos_a:
     pos_a_dict[start_pos] = i
 
 pos_a_list = list(pos_a_dict.values())
-lcm = 1
-for a in pos_a_list:
-    lcm = lcm * a // gcd(lcm, a)
-print("p2", lcm)
+print("p2", lcm(*pos_a_list))
